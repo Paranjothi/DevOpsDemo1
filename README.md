@@ -1,2 +1,3 @@
-# DevOpsDemo1
-DevOpsDemo1 - CICD using docker 
+# maven-project
+
+Simple Maven Project
