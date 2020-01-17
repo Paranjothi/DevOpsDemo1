@@ -1,6 +1,6 @@
-<h1> Hello, Welcome to DevOps Demo !!! </h1>
+<h1> Azure DevOps Demo !!! </h1>
 <h2> Deploying to tomcat  </h2>
 
-<h2> Deployed on 20/Dec  --------------------auto trigger check </h2>
+<h2> Deployed on Jan 2020  --------------------auto trigger check </h2>
 
 
