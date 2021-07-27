@@ -18,7 +18,9 @@
 
   <modules>
     <module>server</module>
-    <module>webapp</module>
+    <module>webapp</module>           
+    <module>server-test</module>
+    <module>webapp-test</module>
   </modules>
 
   <distributionManagement>
