@@ -22,7 +22,11 @@
   <properties>
     <project.build.sourceEncoding>utf-8-test</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8-test</project.reporting.outputEncoding>
-  </properties>        
+  </properties>         
+  <properties>
+    <project.build.sourceEncoding>utf-8-test</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>utf-8-test</project.reporting.outputEncoding>
+  </properties>  
               
   <modules>
     <module>server</module>
