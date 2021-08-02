@@ -23,6 +23,14 @@
     <Catch Comment="" IsDisabled="false" Expanded="false" ExceptionName="MessageFormatException">
       <ReceiveServer Comment="" IsDisabled="false" Expanded="true" ReceiveMessage="Server._SelectIspec" ReceiveTimeout="0" />
     </Catch>
+  </ExceptionHandlers>  
+  <ExceptionHandlers Comment="" IsDisabled="false" Expanded="false">
+    <Catch Comment="" IsDisabled="false" Expanded="false" ExceptionName="UnrecognizedMessageException">
+      <ReceiveServer Comment="" IsDisabled="false" Expanded="true" ReceiveMessage="Server._SelectIspec" ReceiveTimeout="0" />
+    </Catch>
+    <Catch Comment="" IsDisabled="false" Expanded="false" ExceptionName="MessageFormatException">
+      <ReceiveServer Comment="" IsDisabled="false" Expanded="true" ReceiveMessage="Server._SelectIspec" ReceiveTimeout="0" />
+    </Catch>
   </ExceptionHandlers> 
   <ExceptionHandlers Comment="" IsDisabled="false" Expanded="false">
     <Catch Comment="" IsDisabled="false" Expanded="false" ExceptionName="UnrecognizedMessageException">
