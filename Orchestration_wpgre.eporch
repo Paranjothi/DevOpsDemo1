@@ -4,11 +4,26 @@
     <ServerVariables Comment="" IsDisabled="false" Expanded="false">
       <ServerMessage Comment="" IsDisabled="false" Expanded="true" Name="_SelectIspec" NameSpace="Server" Array="false" Type="Record" ExtendedType="Server._SelectIspec" />
     </ServerVariables>
+    <ServerVariables Comment="" IsDisabled="false" Expanded="false">
+      <ServerMessage Comment="" IsDisabled="false" Expanded="true" Name="_SelectIspec" NameSpace="Server" Array="false" Type="Record" ExtendedType="Server._SelectIspec" />
+    </ServerVariables>
     <ClientVariables Comment="" IsDisabled="false" Expanded="true" />
     <LocalVariables Comment="" IsDisabled="false" Expanded="true" />
     <Parameters Comment="" IsDisabled="false" Expanded="true" />
     <Parameters Comment="" IsDisabled="false" Expanded="true" />
   </Variables>
+  <ExceptionHandlers Comment="" IsDisabled="false" Expanded="false">
+    <Catch Comment="" IsDisabled="false" Expanded="false" ExceptionName="UnrecognizedMessageException">
+      <ReceiveServer Comment="" IsDisabled="false" Expanded="true" ReceiveMessage="Server._SelectIspec" ReceiveTimeout="0" />
+    </Catch>
+    <Catch Comment="" IsDisabled="false" Expanded="false" ExceptionName="MessageFormatException">
+    <Catch Comment="" IsDisabled="false" Expanded="false" ExceptionName="UnrecognizedMessageException">
+      <ReceiveServer Comment="" IsDisabled="false" Expanded="true" ReceiveMessage="Server._SelectIspec" ReceiveTimeout="0" />
+    </Catch>
+    <Catch Comment="" IsDisabled="false" Expanded="false" ExceptionName="MessageFormatException">
+      <ReceiveServer Comment="" IsDisabled="false" Expanded="true" ReceiveMessage="Server._SelectIspec" ReceiveTimeout="0" />
+    </Catch>
+  </ExceptionHandlers>
   <ExceptionHandlers Comment="" IsDisabled="false" Expanded="false">
     <Catch Comment="" IsDisabled="false" Expanded="false" ExceptionName="UnrecognizedMessageException">
       <ReceiveServer Comment="" IsDisabled="false" Expanded="true" ReceiveMessage="Server._SelectIspec" ReceiveTimeout="0" />
