@@ -21,7 +21,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
+      <groupId>junit-XMLMergwTest123</groupId>
       <artifactId>junit-dep</artifactId>
       <scope>test</scope>
     </dependency>
