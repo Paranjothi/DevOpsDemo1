@@ -21,7 +21,7 @@
    </build>
    <dependencies deltaxml:deltaV2="ancestor=edit1=edit2">
       <dependency>
-         <groupId>junit-TEST1</groupId>
+         <groupId>junit-MergeTest1</groupId>
          <artifactId>junit-dep</artifactId>
          <scope>test</scope>
       </dependency>
