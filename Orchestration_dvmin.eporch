@@ -8,6 +8,14 @@
     <LocalVariables Comment="" IsDisabled="false" Expanded="true" />
     <Parameters Comment="" IsDisabled="false" Expanded="true" />
   </Variables>
+  <ExceptionHandlers Comment="" IsDisabled="false" Expanded="false">
+    <Catch Comment="" IsDisabled="false" Expanded="false" ExceptionName="UnrecognizedMessageException">
+      <ReceiveServer Comment="" IsDisabled="false" Expanded="true" ReceiveMessage="Server._SelectIspec" ReceiveTimeout="0" />
+    </Catch>
+    <Catch Comment="" IsDisabled="false" Expanded="false" ExceptionName="MessageFormatException">
+      <ReceiveServer Comment="" IsDisabled="false" Expanded="true" ReceiveMessage="Server._SelectIspec" ReceiveTimeout="0" />
+    </Catch>
+  </ExceptionHandlers>
   <Start Comment="" IsDisabled="false" Expanded="true" />
   <OnClientRequest Comment="Create Account" IsDisabled="false" Expanded="true" ClientMessage="Client.Request_WFCAC">
     <Variables Comment="" IsDisabled="false" Expanded="false">

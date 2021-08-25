@@ -1,48 +1,42 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
-  <modelVersion>4.0.0-test1</modelVersion>
-
-  <parent>
-    <groupId>com.example.maven-project</groupId>
-    <artifactId>maven-project</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
-  </parent>
-
-  <artifactId>server</artifactId>
-  <packaging>jar</packaging>
-  <name>Server</name>
-  <description>Logic.</description>
-
-  <build>
-    <finalName>${project.artifactId}</finalName>
-  </build>
-
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit-dep</artifactId>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.hamcrest</groupId>
-      <artifactId>hamcrest-core</artifactId>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.hamcrest</groupId>
-      <artifactId>hamcrest-library</artifactId>
-      <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.mockito</groupId>
-      <artifactId>mockito-core</artifactId>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:deltaxml="http://www.deltaxml.com/ns/well-formed-delta-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" deltaxml:version-order="ancestor, edit1, edit2" deltaxml:content-type="merge-concurrent" deltaxml:version="2.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" deltaxml:deltaV2="ancestor!=edit1!=edit2">
+   <modelVersion deltaxml:deltaV2="ancestor!=edit1!=edit2">4.0.0<deltaxml:textGroup deltaxml:deltaV2="edit1!=edit2" deltaxml:edit-type="add">
+         <deltaxml:text deltaxml:deltaV2="edit1">-latest-Demo</deltaxml:text>
+         <deltaxml:text deltaxml:deltaV2="edit2">-test1</deltaxml:text>
+      </deltaxml:textGroup>
+   </modelVersion>
+   <parent deltaxml:deltaV2="ancestor=edit1=edit2">
+      <groupId>com.example.maven-project</groupId>
+      <artifactId>maven-project</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <relativePath>../pom.xml</relativePath>
+   </parent>
+   <artifactId deltaxml:deltaV2="ancestor=edit1=edit2">server</artifactId>
+   <packaging deltaxml:deltaV2="ancestor=edit1=edit2">jar</packaging>
+   <name deltaxml:deltaV2="ancestor=edit1=edit2">Server</name>
+   <description deltaxml:deltaV2="ancestor=edit1=edit2">Logic.</description>
+   <build deltaxml:deltaV2="ancestor=edit1=edit2">
+      <finalName>${project.artifactId}</finalName>
+   </build>
+   <dependencies deltaxml:deltaV2="ancestor=edit1=edit2">
+      <dependency>
+         <groupId>junit-XMLMergwTest123</groupId>
+         <artifactId>junit-dep</artifactId>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
+         <groupId>org.hamcrest</groupId>
+         <artifactId>hamcrest-core</artifactId>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
+         <groupId>org.hamcrest</groupId>
+         <artifactId>hamcrest-library</artifactId>
+         <scope>test</scope>
+      </dependency>
+      <dependency>
+         <groupId>org.mockito</groupId>
+         <artifactId>mockito-core</artifactId>
+         <scope>test</scope>
+      </dependency>
+   </dependencies>
 </project>
