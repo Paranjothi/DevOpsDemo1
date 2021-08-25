@@ -17,6 +17,19 @@
     </Catch>
   </ExceptionHandlers>
   <Start Comment="" IsDisabled="false" Expanded="true" />
+  <OnClientRequest Comment="Retrieve Credit Interest Rates" IsDisabled="false" Expanded="false" ClientMessage="Client.Request_DEMO">
+    <Variables Comment="" IsDisabled="false" Expanded="false">
+      <ServerVariables Comment="" IsDisabled="false" Expanded="false">
+        <ServerMessage Comment="" IsDisabled="false" Expanded="true" Name="devaqz_WFBKC" NameSpace="Server" Array="false" Type="Record" ExtendedType="Server.devaqz_WFBKC" />
+      </ServerVariables>
+      <ClientVariables Comment="" IsDisabled="false" Expanded="false">
+        <ClientMessage Comment="" IsDisabled="false" Expanded="true" Name="Request_WFBKC" NameSpace="Client" Array="false" Type="Record" ExtendedType="Client.Request_WFBKC" />
+        <ClientMessage Comment="" IsDisabled="false" Expanded="true" Name="Response_WFBKC" NameSpace="Client" Array="false" Type="Record" ExtendedType="Client.Response_WFBKC" />
+      </ClientVariables>
+      <LocalVariables Comment="" IsDisabled="false" Expanded="true" />
+      <Parameters Comment="" IsDisabled="false" Expanded="true" />
+    </Variables>
+  </OnClientRequest>
   <OnClientRequest Comment="Create Account" IsDisabled="false" Expanded="true" ClientMessage="Client.Request_WFCAC">
     <Variables Comment="" IsDisabled="false" Expanded="false">
       <ServerVariables Comment="" IsDisabled="false" Expanded="false">
